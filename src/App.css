@@ -1,0 +1,42 @@
+.stopwatch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.stopwatch p {
+    font-size: 5em;
+    font-family: Tahoma, serif;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.buttons button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+    padding: 10px 25px;
+    background-color: #32e264;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: Tahoma, serif;
+}
+
+.buttons button:first-of-type {
+    background-color: #ff2f2f;
+}
+
+.buttons button:last-child {
+    background-color: #2f9eff;
+}
